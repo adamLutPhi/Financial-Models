@@ -1,5 +1,9 @@
-function [Call,Put] = black(K,f,sigma,T,r)
-%BLACK Model's Summary 
+function [Call,Put] = black(f,K,sigma,T,r)
+%Eng. Ahmad Lutfi
+%Inspired by an Article written by ericbenhamou
+%http://ericbenhamou.net/documents/Encyclo/Black%27s%20model.pdf
+
+%BLACK Model's
 
 %   used for Pricing Vanilla Options (American, Bonds, Swaptions)
 %   where interest rates must Cannot  Be Negative (Super Weak)
